@@ -1,0 +1,15 @@
+.DS_Store
+
+*.js.map
+
+!app/samples/*.js
+
+# JetBrains project files
+.idea
+
+# NPM
+node_modules
+
+# nativescript build
+hooks
+platforms
