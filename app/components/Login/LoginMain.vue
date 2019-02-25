@@ -1,6 +1,6 @@
 <template>
   <StackLayout ref="mainContainer" class="main-container" :visibility="visible?'visible':'collapse'">
-    <Label class="main-label" text="GROCERIES" :color="isLoggingIn? 'black' : 'white'"></Label>
+    <Label class="main-label" text="TASKS" :color="isLoggingIn? 'black' : 'white'"></Label>
 
     <!-- form controls -->
     <GridLayout ref="formControls" class="form-controls" rows="auto, auto" translateY="50">

@@ -20,7 +20,7 @@ export default {
 
   props: {
     row: {
-      type: Number,
+      type: String,
       required: true
     },
     listLoaded: {

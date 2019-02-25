@@ -3,7 +3,7 @@
   <GridLayout ref='container' rows="auto, auto, *" class="list-page" @loaded="load()">
     <!-- Row 1: The custom action bar -->
     <GridLayout row="0" columns="44, *, auto" class="action-bar-custom">
-      <Label col="1" text="Groceries"></Label>
+      <Label col="1" text="Eugene Priorities"></Label>
 
       <!-- Wrap the image in a StackLayout to give it a bigger tap target -->
       <StackLayout col="2" @tap="showMenu()" class='menu-button-container'>
@@ -20,7 +20,7 @@
       <Label col="1" text="Recent items" v-if="isShowingRecent" class="add-bar-recent-label"></Label>
       <TextField ref='groceryTextField' col="1" v-model="grocery"
         @loaded="handleAndroidFocus()"
-        :hint="isAndroid ? 'ADD A GROCERY' : 'Add a grocery'"
+        :hint="isAndroid ? 'ADD A TASK' : 'Add a task'"
         returnKeyType="done" v-else @returnPress="add('textfield')"></TextField>
 
       <StackLayout col="2" class="add-bar-recent-container" @tap="toggleRecent()">
