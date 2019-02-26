@@ -1,6 +1,6 @@
 <template>
   <StackLayout ref="initialContainer" class="initial-container" :visibility="visible?'visible':'collapse'">
-    <Label text="GROCERIES" class="initial-label"></Label>
+    <Label text="TASKS" class="initial-label"></Label>
     <StackLayout @tap="login()" class="initial-button">
       <Label text="Login" class="initial-button-label"></Label>
     </StackLayout>

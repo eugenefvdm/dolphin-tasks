@@ -106,7 +106,7 @@ export default {
         })
         .catch(error => {
           console.error(error)
-          alert("An error occurred loading your grocery list.");
+          alert("An error occurred loading your task list.");
         })
     },
 
