@@ -134,9 +134,9 @@ export default {
         .login(this.user)
         .then(() => {
           this.isAuthenticating = false;
-          console.log('navigating to groceries')
+          console.log('navigating to tasks')
           this.$navigateTo(Groceries)
-          console.log('navigated to groceries')
+          console.log('navigated to tasks')
         })
         .catch((error) => {
           console.error(error)
